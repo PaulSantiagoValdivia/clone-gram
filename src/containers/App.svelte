@@ -1,6 +1,6 @@
 <script>
   import Header from "../components/Header.svelte";
-  import Silderbar from "../components/Siderbar.svelte";
+  import Siderbar from "../components/Siderbar.svelte";
   import Main from "../components/Main.svelte";
   import TimeLine from "../components/TimeLine.svelte";
 </script>
@@ -8,7 +8,7 @@
 <Header />
 <Main>
   <TimeLine />
-  <Silderbar />
+  <Siderbar />
 </Main>
 
 <style>
