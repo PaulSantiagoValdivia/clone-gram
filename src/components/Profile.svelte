@@ -1,7 +1,10 @@
 <div class="Profile">
   <div class="Profile-content">
     <div class="Profile-avatar">
-      <img src="https://static.platzi.com/media/avatars/avatars/santiago-valdivia_3fd7f7fa-e6bc-4ec2-8f54-4d0f49b57bda" alt="">
+      <img
+        src="https://static.platzi.com/media/avatars/avatars/santiago-valdivia_3fd7f7fa-e6bc-4ec2-8f54-4d0f49b57bda"
+        alt=""
+      />
     </div>
     <div class="Profile-info">
       <h2>santiago_valdivia</h2>
@@ -9,3 +12,28 @@
     </div>
   </div>
 </div>
+
+<style>
+  .Profile-content {
+    display: flex;
+    align-items: center;
+  }
+  .Profile-avatar img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+  }
+  .Profile-info {
+    margin: 0 0 0 0.5em;
+  }
+  .Profile-info h2 {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  .Profile-info span {
+    font-size: 12px;
+    font-weight: normal;
+  }
+</style>
