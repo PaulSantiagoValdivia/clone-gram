@@ -1,18 +1,28 @@
 <script>
   import Comments from "./Comments.svelte";
+
+  export let username;
+  export let location;
+  export let photo;
+  export let postComment;
+  export let comments;
+  export let avatar;
 </script>
 
 <div class="Card">
+
+  
+
   <div class="Card-container">
     <div class="Card-header">
       <div class="Card-user">
         <img
-          src="https://static.platzi.com/media/public/uploads/elmo002_25658817-f5c1-44b5-91c3-18f73d365073.jpg"
-          alt=""
+          src={avatar}
+          alt={username}
         />
         <h2>
-          Elmo.pug
-          <span>Buenos Aires, Argentina</span>
+          {username}
+          <span>{location}</span>
         </h2>
       </div>
       <div class="Card-settings">
@@ -22,8 +32,8 @@
     <div class="Card-photo">
       <figure>
         <img
-          src="https://static.platzi.com/media/public/uploads/elmo002_25658817-f5c1-44b5-91c3-18f73d365073.jpg"
-          alt=""
+          src={photo}
+          alt={username}
         />
       </figure>
     </div>
@@ -37,10 +47,10 @@
       </div>
     </div>
     <div class="Card-description">
-      <h3>elmo.pug</h3>
-      <span>hola</span>
+      <h3>{username}</h3>
+      <span>{postComment}</span>
     </div>
-    <Comments />
+    <Comments {comments}/>
   </div>
 </div>
 
