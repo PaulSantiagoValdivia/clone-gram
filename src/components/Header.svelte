@@ -2,7 +2,7 @@
   <div class="Header-container">
     <div class="Header-content">
       <div class="Header-logo">
-        <h1>hola</h1>
+        <h1>Hola bro</h1>
       </div>
       <div class="Header-nav">
         <ul>

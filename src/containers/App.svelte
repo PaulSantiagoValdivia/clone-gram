@@ -1,8 +1,8 @@
 <script>
   import Header from "../components/Header.svelte";
-  import Siderbar from "../components/Siderbar.svelte";
   import Main from "../components/Main.svelte";
   import TimeLine from "../components/TimeLine.svelte";
+  import Siderbar from "../components/Siderbar.svelte";
 </script>
 
 <Header />
