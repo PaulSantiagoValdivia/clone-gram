@@ -1,6 +1,6 @@
 <div class="Modal">
   <div class="Modal-overlay"/>
-
+  <slot/>
 </div>
 <style>
   .Modal {
